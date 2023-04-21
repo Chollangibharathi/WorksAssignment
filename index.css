@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.bg-container {
+  background-color: #ff75a3;
+  width: 100vw;
+  text-align: center;
+}
+
+.image {
+  width: 200px;
+}
+
+.image1 {
+  height: 70px;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-head1 {
+  color: #391079;
+  font-weight: 500;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.profile-head {
+  color: #391079;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.address-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.para {
+  padding: 10px;
+  font-family: "Roboto";
+  color: #300a6c;
+  font-size: 20px;
+}
+
+.date {
+  padding: 10px;
+  font-family: "Roboto";
+  color: #2d066b;
+  font-size: 20px;
+}
+
+.date1 {
+  padding: 10px;
+  font-family: "Roboto";
+  color: #391079;
+  font-size: 20px;
+}
+
+.bottom-left {
+  bottom: 8px;
+  left: 16px;
+  color: #2d066b;
+  margin: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #ff75a3;
+}
+
+.image3 {
+  width: 80px;
+  height: 80px;
+}
+
+.heading {
+  padding: 10px;
+  font-family: "Roboto";
+  color: #391079;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.work-container {
+  align-items: flex-start;
+}
+
+.calender {
+  align-items: flex-start;
+}
+
+.work-image {
+  display: flex;
+  flex-direction: row;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+@media (min-width: 576px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .work-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .date1 {
+    display: none;
+    font-family: "Roboto";
+    color: blue;
+    font-size: 20px;
+  }
+
+  .work-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image2 {
+    width: 200px;
+  }
+
+  .image3 {
+    width: 200px;
+  }
+}
+
+.skill {
+  font-family: "Roboto";
+  font-size: 18px;
+  color: #2d066b;
+}
+
+.awards-container {
+  margin: 5px;
+  background-color: #ffffff20;
+  width: 100%;
+
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.container2 {
+  background-color: #ffffff20;
+  width: 100%;
+  margin: 20px;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.skills-container {
+  background-color: #ffffff20;
+  width: 100%;
+
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.cloud-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.dots-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2px;
+}
+
+.cloud-container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.image1 {
+  height: 100px;
+  width: 100px;
+}
+
+.degree_container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 576px) {
+  .cloud-container {
+    display: none;
+  }
+
+  .cloud-container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 10px;
+  }
+
+  .profile-container1 {
+    display: none;
+  }
+
+  .address-container {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) {
+  .cloud-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 10px;
+  }
+
+  .cloud-container2 {
+    display: none;
+  }
+
+  .profile-container {
+    display: none;
+  }
+
+  .address-container1 {
+    display: none;
+  }
+
+  .container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 10px;
+  }
+
+  .degree_container {
+    display: flex;
+    flex-direction: column;
+  }
+}
